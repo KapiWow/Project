@@ -9,18 +9,18 @@ public class charactercontroller : MonoBehaviour {
 	public Transform groundCheck;
 	public float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
-    private Rigidbody2D rigidbody2D;
+	private Rigidbody2D rigidbody2D;
 
 
 	public float move;
 
 	// Use this for initialization
 	void Start () {
-        rigidbody2D = GetComponent<Rigidbody2D>();
-        
+		rigidbody2D = GetComponent<Rigidbody2D>();
 
-    }
-	
+
+	}
+
 	// Update is called once per frame
 	void FixedUpdate () {
 
@@ -37,7 +37,7 @@ public class charactercontroller : MonoBehaviour {
 			rigidbody2D.AddForce (new Vector2(0f,jumpForce));
 		}
 		rigidbody2D.velocity = new Vector2 (move * maxSpeed, rigidbody2D.velocity.y);
-		
+
 		if (move > 0 && !facingRight)
 			Flip ();
 		else if (move < 0 && facingRight)
@@ -57,7 +57,7 @@ public class charactercontroller : MonoBehaviour {
 
 
 	}
-	
+
 	void Flip(){
 		facingRight = !facingRight;
 		Vector3 theScale = transform.localScale;
@@ -65,3 +65,10 @@ public class charactercontroller : MonoBehaviour {
 		transform.localScale = theScale;
 	}		
 }
+
+
+
+
+
+
+
