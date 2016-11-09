@@ -45,10 +45,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\charactercontroller.cs" />
      <Compile Include="Assets\sawScript2.cs" />
      <None Include="Assets\read me.txt" />
+=======
+     <Compile Include="Assets\Script\AIscript.cs" />
+     <Compile Include="Assets\Script\MoveCamera.cs" />
+     <Compile Include="Assets\Script\charactercontroller.cs" />
+>>>>>>> f60747a534cd12f1395a6b4faf7ff54cf3fb6b77
      <None Include="Assets\123.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

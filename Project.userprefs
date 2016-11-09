@@ -1,9 +1,17 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\charactercontroller.cs">
     <Files>
       <File FileName="Assets\sawScript2.cs" Line="26" Column="1" />
       <File FileName="Assets\charactercontroller.cs" Line="69" Column="1" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\charactercontroller.cs">
+    <Files>
+      <File FileName="Assets\Script\AIscript.cs" Line="9" Column="2" />
+      <File FileName="Assets\Script\charactercontroller.cs" Line="37" Column="4" />
+>>>>>>> f60747a534cd12f1395a6b4faf7ff54cf3fb6b77
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
