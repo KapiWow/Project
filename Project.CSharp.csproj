@@ -65,7 +65,9 @@
     <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\Script\AIScript.cs" />
     <Compile Include="Assets\Script\CheckScript.cs" />
+    <Compile Include="Assets\Script\Client.cs" />
     <Compile Include="Assets\Script\HitScript.cs" />
+    <Compile Include="Assets\Script\Server.cs" />
     <Compile Include="Assets\Script\charactercontroller.cs" />
     <Compile Include="Assets\sawScript2.cs" />
   </ItemGroup>

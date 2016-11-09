@@ -39,24 +39,6 @@ public class charactercontroller : MonoBehaviour
 
     void Update()
     {
-        //if (attack == true)
-        //{
-        //    attackA = true;
-        //    timeStartAttack = Time.time;
-        //}
-
-
-        //if (attackA)
-        //    if (Time.time - timeStartAttack < timeAttack)
-        //    {
-        //        attack = false;
-        //        attackA = false;
-        //    }
-
-        //if ((animator.GetBool("Attack")) && (attack == false))
-        //{
-        //    Attack();
-        //}
 
         if (attack)
         {
@@ -68,14 +50,11 @@ public class charactercontroller : MonoBehaviour
             }
         }
 
-        //if (attackA)
-        //    attack = false;
-
-
         if (grounded && (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)))
         {
             rigidbody2D.AddForce(new Vector2(0f, jumpForce));
         }
+
         rigidbody2D.velocity = new Vector2(move * maxSpeed, rigidbody2D.velocity.y);
 
         if (move > 0 && !facingRight)
@@ -95,7 +74,6 @@ public class charactercontroller : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Q))
         {
-            //animator.SetBool("Attack", true);
             Attack();
         }
 
@@ -123,8 +101,6 @@ public class charactercontroller : MonoBehaviour
         if (attack == false)
         {
             attack = true;
-            //timeStartAttack = Time.time;
-            //animator.SetBool("Attack", true);
             var hit = (GameObject)Instantiate(HitPrefub, transform.position, transform.rotation);
             Vector3 scale = hit.transform.localScale;
             scale.x *= Mathf.Sign(transform.localScale.x);
