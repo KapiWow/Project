@@ -1,9 +1,4 @@
-﻿/// <summary>
-/// Server.
-/// Разработанно командой Sky Games
-/// sgteam.ru
-/// </summary>
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 using System;
 

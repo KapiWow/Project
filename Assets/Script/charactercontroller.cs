@@ -39,7 +39,6 @@ public class charactercontroller : MonoBehaviour
 
     void Update()
     {
-
         if (attack)
         {
             attackA++;
