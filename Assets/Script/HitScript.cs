@@ -5,7 +5,9 @@ public class HitScript : MonoBehaviour
 {
 
     public float Damage;
-    // Use this for initializations
+    void OnGUI()
+    {
+    }
     void Start()
     {
         Destroy(gameObject, 0.2f);
